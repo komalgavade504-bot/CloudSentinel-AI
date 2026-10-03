@@ -1,0 +1,93 @@
+export const cloudResources = [
+  {
+    id: "ec2",
+    name: "EC2 Instances",
+    service: "Amazon EC2",
+    icon: "🖥️",
+    count: 24,
+    status: "Healthy",
+    region: "ap-south-1",
+    lastUpdated: "5 mins ago",
+    riskScore: 12,
+    findings: 2,
+    description: "Virtual machines running cloud workloads."
+  },
+  {
+    id: "s3",
+    name: "S3 Buckets",
+    service: "Amazon S3",
+    icon: "🪣",
+    count: 18,
+    status: "Warning",
+    region: "ap-south-1",
+    lastUpdated: "8 mins ago",
+    riskScore: 34,
+    findings: 5,
+    description: "Object storage buckets."
+  },
+  {
+    id: "iam",
+    name: "IAM Users",
+    service: "AWS IAM",
+    icon: "👤",
+    count: 47,
+    status: "Healthy",
+    region: "Global",
+    lastUpdated: "2 mins ago",
+    riskScore: 8,
+    findings: 1,
+    description: "Users, roles and policies."
+  },
+  {
+    id: "cloudwatch",
+    name: "CloudWatch",
+    service: "Amazon CloudWatch",
+    icon: "📊",
+    count: 36,
+    status: "Healthy",
+    region: "ap-south-1",
+    lastUpdated: "1 min ago",
+    riskScore: 5,
+    findings: 0,
+    description: "Monitoring and metrics."
+  },
+  {
+    id: "cloudtrail",
+    name: "CloudTrail",
+    service: "AWS CloudTrail",
+    icon: "📜",
+    count: 6,
+    status: "Healthy",
+    region: "Global",
+    lastUpdated: "3 mins ago",
+    riskScore: 9,
+    findings: 1,
+    description: "Audit logs and API activity."
+  },
+  {
+    id: "lambda",
+    name: "Lambda Functions",
+    service: "AWS Lambda",
+    icon: "⚡",
+    count: 31,
+    status: "Healthy",
+    region: "ap-south-1",
+    lastUpdated: "6 mins ago",
+    riskScore: 11,
+    findings: 2,
+    description: "Serverless functions."
+  },
+  {
+    id: "security-groups",
+    name: "Security Groups",
+    service: "AWS VPC",
+    icon: "🔐",
+    count: 42,
+    status: "Critical",
+    region: "ap-south-1",
+    lastUpdated: "Just now",
+    riskScore: 82,
+    findings: 12,
+    description: "Firewall rules controlling network access."
+  }
+];

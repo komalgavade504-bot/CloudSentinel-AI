@@ -1,0 +1,38 @@
+export const threats = [
+  {
+    id: 1,
+    severity: "Critical",
+    source: "Russia",
+    target: "AWS EC2",
+    attack: "Brute Force",
+    status: "Active",
+    time: "2 min ago",
+  },
+  {
+    id: 2,
+    severity: "High",
+    source: "China",
+    target: "S3 Bucket",
+    attack: "Data Exposure",
+    status: "Investigating",
+    time: "12 min ago",
+  },
+  {
+    id: 3,
+    severity: "Medium",
+    source: "Germany",
+    target: "IAM",
+    attack: "Privilege Escalation",
+    status: "Resolved",
+    time: "25 min ago",
+  },
+  {
+    id: 4,
+    severity: "Low",
+    source: "USA",
+    target: "CloudTrail",
+    attack: "Suspicious Login",
+    status: "Monitoring",
+    time: "40 min ago",
+  },
+];
